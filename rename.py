@@ -28,7 +28,7 @@ def rename_files(folder_path):
 
             # 새로운 파일 이름
             # {count:02d}는 숫자를 두 자리로 (예: 1 → 01)
-            new_filename = f"부산사직동맛집_더밀_the_meal_{date_str}_{count:02d}{ext}"
+            new_filename = f"원하는이름_{date_str}_{count:02d}{ext}"
 
             # old_file: 현재 파일의 전체 경로
             # new_file: 새 파일 이름의 전체 경로
@@ -46,5 +46,5 @@ def rename_files(folder_path):
 
 # 실제 사용할 폴더 경로를 지정하고
 # rename_files 함수를 실행
-folder_path = r"C:\Users\arott\Downloads\themill"
+folder_path = r"사진이 저장된 폴더"
 rename_files(folder_path)
